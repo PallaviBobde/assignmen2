@@ -1,0 +1,42 @@
+@media print{
+    .header-table-info>tbody{
+        background-color:white!important;
+    }
+    .page--title{
+        background-color: white;
+        color: rgba(52, 198, 70, 1);
+    }
+    .wrapper--shadow {
+        filter: none;
+        border: 3px solid #ccc;
+        background-color: #ccc;
+    }
+    .hexagon,.triangle,.triangle.triangle.inactive{
+        border: 2px solid #ccc;
+    }
+    .triangle,.triangle.inactive{
+        background-color: white!important;
+    }
+    .triangle--text {
+        color: black;
+    }
+    .triangle-3>.triangle--text{
+        color:#f64646;
+    }
+    .triangle-4>.triangle--text{
+        color: #bf3fe4;
+    }
+    .triangle-5>.triangle--text{
+        color: #0150bb;
+    }
+    .highlighted{
+        color: #ff9900;
+        background-color: #fff;
+        border: 2px solid #ff9900;
+    }
+    .highlighted.score{
+        color: #34c646;
+        background-color: #fff;
+        border: 2px solid #34c646;
+    }
+}

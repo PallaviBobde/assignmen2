@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1200px) {
+    .title-block-heading{
+        font-size:3rem;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    .title-block-heading{
+        font-size: 2rem;
+    }
+    tr td{
+        display: block;
+    }
+    .section-7-table-body{
+        flex-direction: column;
+    }
+}
+
